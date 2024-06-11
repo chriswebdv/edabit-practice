@@ -1,13 +1,12 @@
-let num1;
-let num2;
-let sum = num1 + num2;
+let a;
+let b;
 
 function lessThan100(a, b) {
-  if (sum < 100) {
-    return true;
-  } else {
+  let sum = a + b;
+  if (sum > 100) {
     return false;
+  } else if (sum <= 100) {
+    return true;
   }
 }
-
-console.log(lessThan100(100, 15));
+console.log(lessThan100(3, 77));
