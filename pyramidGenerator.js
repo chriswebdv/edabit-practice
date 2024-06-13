@@ -15,8 +15,8 @@ for (const row of rows) {
 console.log(result);
 
 function padRow(name) {
-  return name;
+  return character + name;
 }
 
-const call = padRow();
+const call = padRow("Tanko");
 console.log(call);
