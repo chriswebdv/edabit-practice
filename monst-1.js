@@ -29,3 +29,13 @@ const sayNum = (num) => {
 sayNum(23);
 sayNum(45);
 sayNum(56);
+
+// Create arrow function that returns the sum of two numbers
+
+const sumTwoNums = (firstNumber, secondNumber) => {
+  return firstNumber + secondNumber;
+};
+
+const result = sumTwoNums(10, 77);
+
+console.log(result);
