@@ -79,7 +79,7 @@ console.log(resultUser);
 
 const user = {
   name: "Haro",
-  role: "General",
+  role: "other",
   age: 47,
 };
 
@@ -89,4 +89,4 @@ const userRoleCheck = (user) => {
   }
 };
 
-userRoleCheck(user.role);
+userRoleCheck(user);
