@@ -49,3 +49,15 @@ const sumOfFiveNums = (num1, num2, num3, num4, num5) => {
 const finalResult = sumOfFiveNums(1, 2, 3, 4, 5);
 
 console.log(finalResult);
+
+// if else task
+
+const age = 99;
+
+if (age < 20) {
+  console.log("young!");
+} else if (age > 80) {
+  console.log("old!");
+} else {
+  console.log("grown up!");
+}
