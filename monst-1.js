@@ -83,4 +83,10 @@ const user = {
   age: 47,
 };
 
-console.log(user.name);
+const userRoleCheck = (user) => {
+  if (user.role === "admin") {
+    console.log("Give access!");
+  }
+};
+
+userRoleCheck(user.role);
