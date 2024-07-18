@@ -39,3 +39,13 @@ const sumTwoNums = (firstNumber, secondNumber) => {
 const result = sumTwoNums(10, 77);
 
 console.log(result);
+
+// Create arrow function that returns the sum of five numbers
+
+const sumOfFiveNums = (num1, num2, num3, num4, num5) => {
+  return num1 + num2 + num3 + num4 + num5;
+};
+
+const finalResult = sumOfFiveNums(1, 2, 3, 4, 5);
+
+console.log(finalResult);
