@@ -74,3 +74,13 @@ const resultUser =
   userName === "jack" || userName === "john" ? "admin" : "user";
 
 console.log(resultUser);
+
+// user object function
+
+const user = {
+  name: "Haro",
+  role: "General",
+  age: 47,
+};
+
+console.log(user.name);
