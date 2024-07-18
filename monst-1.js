@@ -9,3 +9,13 @@ let sum = first + second + third + fourth + fifth;
 second = 3;
 
 console.log(sum);
+
+// functions
+
+const writeLog = () => {
+  console.log("Hello");
+  console.log("JavaScript");
+  console.log("web");
+};
+
+writeLog();
