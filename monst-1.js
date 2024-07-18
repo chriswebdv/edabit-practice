@@ -65,3 +65,12 @@ const getAgeMessage = (age) => {
 };
 
 getAgeMessage(7);
+
+// ternary operator
+
+const userName = "jack";
+
+const resultUser =
+  userName === "jack" || userName === "john" ? "admin" : "user";
+
+console.log(resultUser);
