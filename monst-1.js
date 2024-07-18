@@ -10,7 +10,7 @@ second = 3;
 
 console.log(sum);
 
-// functions
+// arrow functions
 
 const writeLog = () => {
   console.log("Hello");
@@ -19,3 +19,13 @@ const writeLog = () => {
 };
 
 writeLog();
+
+// arrow functions with parameter
+
+const sayNum = (num) => {
+  console.log("This is", num);
+};
+
+sayNum(23);
+sayNum(45);
+sayNum(56);
