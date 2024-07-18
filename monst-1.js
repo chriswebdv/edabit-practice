@@ -52,12 +52,16 @@ console.log(finalResult);
 
 // if else task
 
-const age = 99;
+// turn the if else to a function
 
-if (age < 20) {
-  console.log("young!");
-} else if (age > 80) {
-  console.log("old!");
-} else {
-  console.log("grown up!");
-}
+const getAgeMessage = (age) => {
+  if (age < 20) {
+    console.log("young!");
+  } else if (age > 80) {
+    console.log("old!");
+  } else {
+    console.log("grown up!");
+  }
+};
+
+getAgeMessage(7);
