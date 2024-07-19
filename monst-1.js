@@ -114,7 +114,15 @@ const assignRole = (nameOfUser) => {
   }
 };
 
-const roleResult = assignRole("Billy");
+const roleResult = assignRole("Haro");
 console.log(roleResult);
 
 // use for loop to populate an empty array
+
+const numsArr = [];
+
+for (let i = 0; i < 10; i++) {
+  numsArr.push({ id: i, name: "hello_" + i });
+}
+
+console.log(numsArr);
