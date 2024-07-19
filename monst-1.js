@@ -103,3 +103,5 @@ const postsWithCount = [
 postsWithCount.push({ title: "word", likes: 14 });
 
 console.log(postsWithCount);
+
+// create a user function
