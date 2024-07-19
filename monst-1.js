@@ -92,3 +92,12 @@ const userRoleCheck = (user) => {
 userRoleCheck(user);
 
 // create an array of objects and add one more item to the array
+
+const postsWithCount = [
+  { title: "hello", likes: 8 },
+  { title: "bye", likes: 5 },
+  { title: "lol", likes: 10 },
+  { title: "sure", likes: 7 },
+];
+
+console.log(postsWithCount[1].title);
