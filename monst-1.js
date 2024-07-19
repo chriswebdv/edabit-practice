@@ -116,3 +116,5 @@ const assignRole = (nameOfUser) => {
 
 const roleResult = assignRole("Billy");
 console.log(roleResult);
+
+// use for loop to populate an empty array
