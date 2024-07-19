@@ -106,8 +106,6 @@ console.log(postsWithCount);
 
 // create a user function
 
-const nameOfUser = "Haro";
-
 const assignRole = (nameOfUser) => {
   if (nameOfUser === "Haro") {
     return "admin";
@@ -115,3 +113,6 @@ const assignRole = (nameOfUser) => {
     throw new Error("not correct user!");
   }
 };
+
+const roleResult = assignRole("Billy");
+console.log(roleResult);
