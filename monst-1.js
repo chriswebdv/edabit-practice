@@ -126,3 +126,5 @@ for (let i = 0; i < 10; i++) {
 }
 
 console.log(numsArr);
+
+// create while loop and iterate over it and add object inside empty array
