@@ -105,3 +105,13 @@ postsWithCount.push({ title: "word", likes: 14 });
 console.log(postsWithCount);
 
 // create a user function
+
+const nameOfUser = "Haro";
+
+const assignRole = (nameOfUser) => {
+  if (nameOfUser === "Haro") {
+    return "admin";
+  } else {
+    throw new Error("not correct user!");
+  }
+};
