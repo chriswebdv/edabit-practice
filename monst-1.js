@@ -127,4 +127,17 @@ for (let i = 0; i < 10; i++) {
 
 console.log(numsArr);
 
+console.log("-----------------------------------");
 // create while loop and iterate over it and add object inside empty array
+const userArr = [];
+let i = 0;
+
+while (i < 10) {
+  userArr.push({
+    id: i,
+    name: "hello_" + i,
+  });
+  i += 3;
+}
+
+console.log(userArr);
