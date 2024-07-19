@@ -100,4 +100,6 @@ const postsWithCount = [
   { title: "sure", likes: 7 },
 ];
 
-console.log(postsWithCount[1].title);
+postsWithCount.push({ title: "word", likes: 14 });
+
+console.log(postsWithCount);
