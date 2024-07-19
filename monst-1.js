@@ -90,3 +90,5 @@ const userRoleCheck = (user) => {
 };
 
 userRoleCheck(user);
+
+// create an array of objects and add one more item to the array
