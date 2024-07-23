@@ -161,3 +161,6 @@ const userStrings = usersGroup.map((user) => {
 });
 
 console.log(userStrings);
+
+// array of users with id, name and age
+// create a functions that gets the users that are older than 30
