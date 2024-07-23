@@ -146,3 +146,12 @@ console.log("-----------------------------------");
 
 // Create an Array of users
 // Create and array of strings with the following: Hello jack with age 30
+
+usersGroup = [
+  { id: 4001, name: "Goyo", age: 35 },
+  { id: 4002, name: "Tanko", age: 45 },
+  { id: 4003, name: "Rich", age: 55 },
+  { id: 4004, name: "Gator", age: 25 },
+];
+
+console.log(usersGroup);
