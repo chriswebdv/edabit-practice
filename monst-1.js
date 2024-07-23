@@ -164,3 +164,18 @@ console.log(userStrings);
 
 // array of users with id, name and age
 // create a functions that gets the users that are older than 30
+
+usersAge = [
+  { id: 4001, name: "Goyo", age: 35 },
+  { id: 4002, name: "Tanko", age: 45 },
+  { id: 4003, name: "Rich", age: 15 },
+  { id: 4004, name: "Gator", age: 25 },
+];
+
+const filterAge = usersAge.filter((user) => {
+  if (usersAge.age > 30) {
+    return usersAge[user];
+  }
+});
+
+console.log(filterAge);
