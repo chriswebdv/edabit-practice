@@ -144,4 +144,5 @@ console.log(userArr);
 
 console.log("-----------------------------------");
 
-//
+// Create an Array of users
+// Create and array of strings with the following: Hello jack with age 30
