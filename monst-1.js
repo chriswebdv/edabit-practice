@@ -155,3 +155,9 @@ usersGroup = [
 ];
 
 console.log(usersGroup);
+
+const userStrings = usersGroup.map((user) => {
+  return `hello ${user.name} with age ${user.age}`;
+});
+
+console.log(userStrings);
