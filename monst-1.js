@@ -172,10 +172,10 @@ usersAge = [
   { id: 4004, name: "Gator", age: 25 },
 ];
 
-const filterAge = usersAge.filter((user) => {
-  if (usersAge.age > 30) {
-    return usersAge[user];
-  }
-});
+const filterAge = (usersAge) => {
+  return usersAge.filter((user) => user.age > 30);
+};
 
-console.log(filterAge);
+const resultFilter = filterAge(usersAge);
+
+console.log(resultFilter);
