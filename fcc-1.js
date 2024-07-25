@@ -46,3 +46,5 @@ console.log(cities);
 
 cities[cities.length - 1] = "Mexico City";
 console.log(cities);
+
+// Pyramid Generator
