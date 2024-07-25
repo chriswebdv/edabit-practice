@@ -26,6 +26,12 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 
 console.log(rows[0]);
 
-rows[rows.length - 1] = 30;
+rows[rows.length - 1] = 10;
 
 console.log(rows);
+
+// cities array
+
+let cities = ["London", "New York", "Mumbai"];
+
+console.log(cities);
