@@ -64,7 +64,7 @@ for (const row of pyramidRows) {
 
 console.log(result);
 
-function padRow() {}
+function padRow(rowNumber, rowCount) {}
 
 const call = padRow();
 
