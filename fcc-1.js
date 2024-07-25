@@ -23,8 +23,10 @@ console.log(count + 1);
 // working with arrays
 
 let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
 
 console.log(rows[0]);
+console.log(rows);
 
 rows[rows.length - 1] = 10;
 
