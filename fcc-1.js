@@ -19,3 +19,9 @@ console.log(age);
 
 let count = 8;
 console.log(count + 1);
+
+// working with arrays
+
+let rows = ["Naomi", "Quincy", "CamperChan"];
+
+console.log(rows);
