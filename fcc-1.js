@@ -23,7 +23,10 @@ console.log(count + 1);
 // working with arrays
 
 let rows = ["Naomi", "Quincy", "CamperChan"];
-rows.push("freeCodeCamp");
+
+// use push to add string the array
+let pushed = rows.push("freeCodeCamp");
+console.log("pushed", pushed);
 
 console.log(rows[0]);
 console.log(rows);
@@ -31,6 +34,9 @@ console.log(rows);
 rows[rows.length - 1] = 10;
 
 console.log(rows);
+
+let popped = rows.pop();
+console.log("this is", popped);
 
 // cities array
 
