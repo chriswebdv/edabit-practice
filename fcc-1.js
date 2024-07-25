@@ -48,3 +48,6 @@ cities[cities.length - 1] = "Mexico City";
 console.log(cities);
 
 // Pyramid Generator
+const pyramidChar = "#";
+const pyramidCount = 8;
+const pyramidRows = [];
