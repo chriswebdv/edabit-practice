@@ -66,4 +66,12 @@ console.log(result);
 
 function padRow() {}
 
-let call = padRow();
+const call = padRow();
+
+console.log(call);
+
+// practice arrow functions
+
+const addTwoNumbers = (num1, num2) => {
+  return num1 + num2;
+};
