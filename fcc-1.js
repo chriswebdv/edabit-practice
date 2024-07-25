@@ -9,3 +9,8 @@ console.log(secondCharacter);
 
 let profession;
 let age;
+
+profession = "teacher";
+
+console.log(profession);
+console.log(age);
