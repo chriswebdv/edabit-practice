@@ -75,3 +75,7 @@ console.log(call);
 const addTwoNumbers = (num1, num2) => {
   return num1 + num2;
 };
+
+const resultNums = addTwoNumbers(5, 100);
+
+console.log(resultNums);
