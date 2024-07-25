@@ -53,7 +53,7 @@ const pyramidCount = 8;
 const pyramidRows = [];
 
 for (let i = 0; i < pyramidCount; i++) {
-  pyramidRows.push(pyramidChar.repeat(i));
+  pyramidRows.push(pyramidChar.repeat(i + 1));
 }
 
 let result = "";
@@ -63,3 +63,7 @@ for (const row of pyramidRows) {
 }
 
 console.log(result);
+
+function padRow() {}
+
+let call = padRow();
