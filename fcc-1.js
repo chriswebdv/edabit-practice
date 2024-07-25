@@ -6,3 +6,6 @@ character = "World";
 let secondCharacter;
 secondCharacter = character;
 console.log(secondCharacter);
+
+let profession;
+let age;
