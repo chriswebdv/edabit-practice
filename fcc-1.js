@@ -14,3 +14,8 @@ profession = "teacher";
 
 console.log(profession);
 console.log(age);
+
+// use variables with numbers
+
+let count = 8;
+console.log(count + 1);
