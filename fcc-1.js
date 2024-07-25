@@ -55,3 +55,11 @@ const pyramidRows = [];
 for (let i = 0; i < pyramidRows.length; i++) {
   pyramidRows.push(i);
 }
+
+let result = "";
+
+for (const row of pyramidRows) {
+  result = result + row;
+}
+
+console.log(result);
