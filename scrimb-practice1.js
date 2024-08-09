@@ -45,3 +45,16 @@ console.log(6 + "5"); // "65"
 console.log("My points: " + 5 + 9); // "59"
 console.log(2 + 2); // 4
 console.log("11" + "14"); // "1114"
+
+// for loops
+
+for (let i = 10; i < 21; i++) {
+  console.log(i);
+}
+
+// Create a for loop that counts from 10 to 100 in steps of 10
+// Use console.log to log out the numbers
+console.log("--------------------------------");
+for (let i = 10; i < 101; i += 10) {
+  console.log(i);
+}
